@@ -2,7 +2,7 @@
 // Inserting and deleting nodes in a list
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "ll.h"
 int main( void )
 { 
    LLPtr startPtr = NULL; // initially there are no nodes
