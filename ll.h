@@ -103,14 +103,14 @@ void printList(LLPtr currentPtr) {
     LLPtr lastPtr = NULL;
     puts("The list is :");
     while (currentPtr != NULL) {
-        printf("%d %s --> ", currentPtr->id, currentPtr->name);
+        printf("%d %s -->", currentPtr->id, currentPtr->name);
         lastPtr = currentPtr; 
         currentPtr = currentPtr->nextPtr;
     }
     puts("NULL");
 
     while (lastPtr != NULL) {
-        printf("%d %s --> ", lastPtr->id, lastPtr->name);
+        printf("%d %s -->", lastPtr->id, lastPtr->name);
         lastPtr = lastPtr->prevPtr;
     }
     puts("NULL\n");
